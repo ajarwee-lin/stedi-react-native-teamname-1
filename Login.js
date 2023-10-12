@@ -12,6 +12,7 @@ export default function Login(props){
         <View style={styles.login}>
             <Text>This is the Login Screen</Text>
             <Button title="Say Hello" onPress={() => sayHello('User1')}></Button>
+            <Button title="Say Hello" onPress={() => sayHello('User2')}></Button>
             <Text>{message}</Text>
         </View>
 
